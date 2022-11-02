@@ -4,7 +4,7 @@ const User = require('./user');
 main().catch(err => console.log(err));
 
 async function main() {
-    mongoose.connect("mongodb://uzus:uzusdb1234!@13.124.46.20:27017", {
+    mongoose.connect("", {
         dbName: 'maindb',
     }, (err) => {
         if (err) {
